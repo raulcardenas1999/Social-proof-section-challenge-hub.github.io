@@ -1,0 +1,25 @@
+/*
+1. Posicionamiento.
+2. Modelo caja (Box model).
+3. Tipografia.
+4. Visuales.
+5. Otros.
+*/
+:root{
+    /*Colores primary*/
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    /*Colores secondary*/
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Spartan';
+}
