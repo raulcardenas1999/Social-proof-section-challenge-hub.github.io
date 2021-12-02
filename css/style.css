@@ -23,3 +23,118 @@ html{
     font-size: 62.5%;
     font-family: 'Spartan';
 }
+/*Header*/
+header{
+    max-width: 768px;
+    min-width: 345px;
+    margin: 0px 15px;
+}
+.social__title{
+    font-size: 2.7rem;
+    text-align: center;
+    margin: 30px 30px;
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+}
+.social__description{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0px 0px 30px 0px;
+    color: var(--dark-grayish-magenta);
+}
+.social__card{
+    width: calc(100vw - 30px);
+    height: 70px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background-color: var(--light-grayish-magenta);
+    text-align: center;
+}
+.social__start{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px;
+    background-image: url("../images/icon-star.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.social__subtitle{
+    font-size: 1.3rem;
+    color: var(--very-dark-magenta);
+}
+/*Main*/
+main{
+    max-width: 768px;
+    min-width: 345px;
+    margin: 40px 15px;
+}
+.product__card{
+    position: relative;
+    min-width: calc(100vw - 30px);
+    height: 200px;
+    margin: 10px 0px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background-color: var(--very-dark-magenta);
+}
+.product__header{
+    display: inline-block;
+}
+.product__colton{
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    background-image: url("../images/image-colton.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product__irene{
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    background-image: url("../images/image-irene.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product__anne{
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    background-image: url("../images/image-anne.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product__name{
+    position: absolute;
+    line-height: 19px;
+    padding-left: 10px;
+    font-weight: 700;
+    color: var(--white);
+}
+.product__name p{
+    font-weight: 400;
+    color: var(--soft-pink);
+}
+.product__description{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    margin-top: 15px;
+    color: var(--white);
+}
